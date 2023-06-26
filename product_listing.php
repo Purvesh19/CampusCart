@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       <?php include "assets/index-19559485.css" ?>
+      .boxing{
+      margin-left: 100px;
+      display: flex;
+      /* justify-content: space-between; */
+      /* align-items: center; */
+    }
     </style>
     <title>Electronics</title>
 </head>
@@ -15,10 +21,10 @@
         <div class="logo flex items-center justify-center mx-6">
           <img src="./assets/logo-1-f3c60bcb.png" height="50" width="50" alt="logo" />
           <h1 class="items-center font-semibold text-white text-lg">
-            <a href="index.html">Campus Cart</a>
+            <a href="/campuscart/home.php">Campus Cart</a>
           </h1>
         </div>
-        <div class="search-box justify-center items-center my-1 mx-64">
+        <div class="search-box justify-center items-center my-1 mx-64" style="margin-left:350px">
           <form>
             <label
               for="default-search"
@@ -49,7 +55,7 @@
                 type="search"
                 id="default-search"
                 class="block w-96 pb-2 p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Search Mockups, Logos..."
+                placeholder="Search for products - laptop, watch, notes..."
                 required
               />
               <button
@@ -61,6 +67,7 @@
             </div>
           </form>
         </div>
+        <div class="boxing">
         <div class="add dropdown cursor-pointer  rounded-md focus:outline-none">
           <svg
             class="h-10 w-10 text-purple-300 hover:shadow-white shadow-md mt-1"
@@ -112,7 +119,8 @@
             });
         </script>
         <div class="flex justify-end items-center text-white gap-2 ml-2">
-          <h1 class="text-lg ml-2">Gulabo</h1>
+        <h1 class="text-lg ml-2"></h1>
+            <a class="text-lg ml-2" href="/campuscart/profile.php">Gulabo</a>
           <img
             class="rounded-full border-2 border-sky-400"
             src="https://dspncdn.com/a1/media/692x/80/ae/44/80ae442a54a07b6619c3b742e47de046.jpg"
@@ -136,6 +144,7 @@
               d="M4 8h11m0 0-4-4m4 4-4 4m-5 3H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h3"
             />
           </svg> -->
+        </div>
         </div>
       </div>
 
@@ -233,7 +242,7 @@
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div class="basis-1/3">
-                                <img src="https://picsum.photos/400/400" alt=""
+                                <img src="https://cdn.discordapp.com/attachments/1120377338346090588/1122789747635519548/lenovo-ideapad-gaming-3-82k201uein-amd-ryzen-5-5600h-15-6-inches-gaming-laptop-8gb-512gb-ssd-windows-11-shadow-black-2-25-kg-.png" alt=""
                                     class="w-full mx-4 my-2 mb-4 rounded-sm h-64 object-cover">
                             </div>
                             <div class="mx-4 basis-2/3">
@@ -261,7 +270,7 @@
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div class="basis-1/3">
-                                <img src="https://picsum.photos/400/400" alt=""
+                                <img src="https://cdn.discordapp.com/attachments/1120377338346090588/1122789872793571418/lenovo-ideapad-3-81wb01b0in-10th-gen-intel-core-i3-10110u-15-6-inches-notebook-laptop-8gb-512gb-ssd-windows-11-platinum-grey-1-7-kg-.png" alt=""
                                     class="w-full mx-4 my-2 mb-4  h-64 object-cover">
                             </div>
                             <div class="mx-4 basis-2/3">
