@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/index-9689174a.css">
     <style>
-      <?php include "assets/index-19559485.css" ?>
       .body {
         font-family: "Poppins", sans-serif;
       }
@@ -40,15 +39,40 @@
         justify-content: space-between;
         width: 100%;
       }
+      .donation{
+        position: absolute;
+        top: 75vh;
+        left: 45vw;
+      }
+      .listing{
+        position: absolute;
+        top: 75vh;
+        left: 63vw;
+      }
+      .sell{
+        position: absolute;
+        top: 55vh;
+        left: 81vw;
+
+      }
+      .home{
+        position:absolute;
+        top: 20vh;
+        left: 49vw;
+      }
+      .b{
+        margin-top: -60px;
+      }
+      
     </style>
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="/assets/index-19559485.css"> -->
   </head>
-  <body class="bg-purple-100">
+  <body class="bg-gradient-to-r from-purple-950 to-purple-500">
     <header class="justify-center items-center">
-      <div class="flex navbar pt-2 h-16 bg-purple-950 p-2">
+      <div class="flex navbar pt-2 h-16 bg-transparent p-2" style="display: flex;
+      justify-content: center;">
         <div class="logo flex items-center justify-center mx-6">
-          <img src="https://cdn.discordapp.com/attachments/1118765599892455464/1122528958496383096/logo-1-f3c60bcb.png" height="50" width="50" alt="logo" />
+          <img src="assets/logo-1-f3c60bcb.png" height="50" width="50" alt="logo" />
           <h1 class="items-center font-semibold text-white text-lg">
             <a href="/campuscart/home.php">Campus Cart</a>
           </h1>
@@ -89,7 +113,7 @@
               />
               <button
                 type="submit"
-                class="text-white -mx-4 mb-1 pb-2 absolute -right-16 -bottom-0.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                class="text-white -mx-4 mb-1 pb-2 absolute -right-16 -bottom-0.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-purple-800 dark:hover:bg-purple-950 dark:focus:ring-blue-800"
               >
                 Search
               </button>
@@ -109,160 +133,94 @@
           </button>
         </div>
       </div>
-
-      <div class="nav-2 text-black bg-purple-100 py-2 pt-4 text-xl">
-        <nav class="flex justify-center items-center gap-6 mx-12">
-          <a
-            class="text-blue-700 hover:bg-gray-300 p-2 px-4 rounded-md focus:outline-none"
-            href="/campuscart/home.php"
-            >Home</a
-          >
-          <a
-            class="hover:bg-gray-300 p-2 px-4 rounded-md focus:outline-none"
-            href="/campuscart/product_listing.php"
-            >Electronics</a
-          >
-          <a
-            class="hover:bg-gray-300 p-2 px-4 rounded-md focus:outline-none"
-            href="#"
-            >Stationary</a
-          >
-          <a
-            class="hover:bg-gray-300 p-2 px-4 rounded-md focus:outline-none"
-            href="#"
-            >Entertainment</a
-          >
-          <a
-            class="hover:bg-gray-300 p-2 px-4 rounded-md focus:outline-none"
-            href="#"
-            >Renting</a
-          >
-        </nav>
-      </div>
     </header>
-    ]
-    <section class="section-1 -my-5 px-1 bg-purple-100">
-      <div class="carousel">
-        <div class="carousel-inner object-cover">
-            <a href="link1.html" class="carousel-item">
-                <img src="https://picsum.photos/1400/300" alt="Image 1">
-              </a>
-              <a href="link2.html" class="carousel-item">
-                <img src="https://picsum.photos/1400/300" alt="Image 2">
-              </a>
-              <a href="link3.html" class="carousel-item">
-                <img src="https://picsum.photos/1400/300" alt="Image 3">
-              </a>
+    <div
+      class="makeup flex bg-gradient-to-r from-purple-950 to-purple-500 h-screen w-full"
+    >
+      <div class="right flex flex-col gap-10 basis-1/2 justify-center items-center">
+        <div class="flex items-center">
+          <img class="w-32" src="https://cdn.discordapp.com/attachments/1120377338346090588/1122815201427857438/logo-3.png" alt="" />
+          <h1 class="text-5xl font-bold text-white">Campus Cart</h1>
         </div>
-        <div class="carousel-controls">
+        <h1 class="text-2xl text-white ml-8">Igniting Campus Connections with <br> Empowered Commerce</h1>
+        <div class="flex justify-center items-center text-white gap-4 mx-8">
           <button
-            class="carousel-control text-white bg-black px-3 py-7 font-bold bg-opacity-50 text-3xl rounded-md hover:bg-opacity-90 transition-opacity"
-            onclick="previousCarouselItem()"
+            class="bg-white text-purple-950 text-lg font-semibold pl-4 pr-4 py-1.5 rounded-md"
           >
-            &lt;
+            <a href="/campuscart/signup.php">Sign Up</a>
           </button>
           <button
-            class="carousel-control text-white bg-black px-3 py-7 font-bold bg-opacity-50 text-3xl rounded-md hover:bg-opacity-90 e transition-opacity"
-            onclick="nextCarouselItem()"
+            class="bg-white text-purple-950 text-lg font-semibold pl-4 pr-4 py-1.5 rounded-md"
           >
-            &gt;
+            <a href="/campuscart/login.php">Login</a>
           </button>
         </div>
       </div>
-    </section>
-    <section class="offers">
-      <div class="flex justify-center items-center gap-6 mt-6 mx-6">
-        <div class="top-offers w-52">
-          <h1 class="text-4xl text-center font-bold">Top Offers</h1>
-
-          <button
-            class="bg-purple-900 text-white font-bold text-lg ml-2 mt-5 p-2 pl-6 pr-6 rounded-md hover:bg-purple-600 transition-colors"
-          >
-            <a href="#">View All</a>
-          </button>
+      
+      <div class="left">
+        <div class="home absolute backdrop:blur-md h-1/3 w-2/4 shadow-xl shadow-purple-500 contrast-150">
+          <img class="rounded-lg border-4  border-purple-950" src="https://cdn.discordapp.com/attachments/1120377338346090588/1122802365762912286/image.png" alt="">
         </div>
-        <div class="offer-1 bg-white p-4 rounded-md shadow-md">
-          <img src="https://picsum.photos/400/300" alt="offer-1" />
-          <h1 class="text-center text-xl font-bold">Offer 1</h1>
-          <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
-          </p>
+        <!-- <div class="color h-48 w-1/2 absolute top-1/2 left-1/2 z-10 mix-blend-multiply bg-gradient-to-t from-purple-500 to-purple-50"></div> -->
+        <div class="b donation absolute top-3/4 h-48 z-20 w-56 drop-shadow-2xl shadow-purple-500">
+          <img class="rounded-lg border-4  border-purple-950" src="https://cdn.discordapp.com/attachments/1118765599892455464/1122782172781219870/image.png" alt="">
         </div>
-        <div class="offer-2 bg-white p-4 rounded-md shadow-md">
-          <img src="https://picsum.photos/400/300" alt="offer-2" />
-          <h1 class="text-center text-xl font-bold">Offer 2</h1>
-          <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
-          </p>
+        
+        <div class="b listing absolute  top-3/4 h-40 z-20 w-56 shadow-xl shadow-purple-500">
+          <img class="rounded-lg border-4  border-purple-950" src="https://cdn.discordapp.com/attachments/1120377338346090588/1122791221044203581/Screenshot_2023-06-26_at_1.00.55_PM.png" alt="">
         </div>
-        <div class="offer-3 bg-white p-4 rounded-md shadow-md">
-          <img src="https://picsum.photos/400/300" alt="offer-3" />
-          <h1 class="text-center text-xl font-bold">Offer 3</h1>
-          <p class="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
-          </p>
+        <div class="b sell absolute top-3/4 h-40 z-20 w-56 shadow-xl shadow-purple-700">
+          <img class="rounded-lg border-4  border-purple-950" src="https://cdn.discordapp.com/attachments/1120377338346090588/1122797152477913139/image.png" alt="">
         </div>
       </div>
-    </section>
-    <script>
-      const carouselInner = document.querySelector(".carousel-inner");
-      const carouselItems = document.querySelectorAll(".carousel-item");
-      let currentIndex = 0;
-
-      function showCarouselItem(index) {
-        carouselInner.style.transform = `translateX(-${index * 100}%)`;
-        currentIndex = index;
-      }
-
-      function nextCarouselItem() {
-        currentIndex = (currentIndex + 1) % carouselItems.length;
-        showCarouselItem(currentIndex);
-      }
-
-      function previousCarouselItem() {
-        currentIndex =
-          (currentIndex - 1 + carouselItems.length) % carouselItems.length;
-        showCarouselItem(currentIndex);
-      }
-    </script>
+    </div>
     <footer>
-        <div class="footer mt-10 bg-purple-950 text-white">
-            <div class="flex justify-evenly items-center gap-6 mx-12">
-            <div class="footer-1">
-                <h1 class="text-xl font-bold">About Us</h1>
-                <ul>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                </ul>
-            </div>
-            <div class="footer-2">
-                <h1 class="text-xl font-bold">Contact Us</h1>
-                <ul>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                </ul>
-            </div>
-            <div class="footer-3">
-                <h1 class="text-xl font-bold">Social Media</h1>
-                <ul>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                    <a href="#"><li class="hover:translate-x-2">>Lorem, ipsum.</li></a>
-                </ul>
-            </div>
-            </div>
+      <div class="footer bg-purple-950 text-white">
+        <div class="flex justify-evenly items-center gap-6 mx-12">
+          <div class="footer-1">
+            <h1 class="text-xl font-bold">About Us</h1>
+            <ul>
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+            </ul>
+          </div>
+          <div class="footer-2">
+            <h1 class="text-xl font-bold">Contact Us</h1>
+            <ul>
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+            </ul>
+          </div>
+          <div class="footer-3">
+            <h1 class="text-xl font-bold">Social Media</h1>
+            <ul>
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+              <a href="#"
+                ><li class="hover:translate-x-2">>Lorem, ipsum.</li></a
+              >
+            </ul>
+          </div>
         </div>
-        <div class="footer-4 bg-purple-800 text-white text-center p-2">
-            <p class="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
-            </p>
-        </div>
+      </div>
     </footer>
   </body>
 </html>
